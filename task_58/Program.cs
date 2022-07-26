@@ -75,7 +75,7 @@
 
         public static void MultiplicationArray(int[,] arrayFirst, int[,] arraySecond)
         {
-            var resultMultiplication = new int[4, 4];
+            var resultMultiplication = new int[arrayFirst.GetLength(0), arraySecond.GetLength(1)];
 
             for (int i = 0; i < arrayFirst.GetLength(0); i++)
             {
