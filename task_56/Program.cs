@@ -58,9 +58,10 @@
                 }
             }
 
-            Console.WriteLine("Строка с наименьшей суммой элементов");
+            Console.WriteLine($"Индекс строки с наименьшей суммой элементов -> {indexMinRow}");
             for (int j = 0; j < array.GetLength(1); j++)
                 Console.Write(array[indexMinRow, j] + "\t");
+
 
 
         }
